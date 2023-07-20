@@ -9,10 +9,13 @@
     * document.write("Helo Java Script <br/>");    // To write in document page
     * console.log(document  here);    // To write in console. 
     * typeof(variable);    // To show variable type. 
+    * toString(num);    // for convert number to string. 
+    * parseInt(name);    // for convert string to number. 
+    * num.toFixed(2);    // for output two digits after decimal point. 
 # Data type in java script.
     * string
     * boolen
-    *number 
+    * number 
     * and special type object. 
 # Variable declaration. Variable name can be latters, numbers, underscore and dolar sign. 
     * var num=123;    // for any type.
