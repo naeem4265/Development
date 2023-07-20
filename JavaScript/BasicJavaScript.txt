@@ -1,4 +1,4 @@
-# Java Script can be written anyhere in html with tag, this is call internal javascript. 
+# Java Script can be written anywhere in html with tag, this is call internal javascript. 
     <script>
       documents here. 
     </script>
