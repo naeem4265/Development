@@ -5,6 +5,6 @@
 2. Alert function for alert when page is loaging. 
     alert(document here);
 3. To write in document page
-    document.write("Helo Java Script</br>");
+    document.write("Helo Java Script <br/>");
 4. To write in console
     console.log(document  here);
