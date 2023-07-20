@@ -12,6 +12,7 @@
     * toString(num);    // for convert number to string. 
     * parseInt(name);    // for convert string to number. 
     * num.toFixed(2);    // for output two digits after decimal point. 
+    * num.toPrecision(3);    // for output total 3 digit. 
 # Data type in java script.
     * string
     * boolen
