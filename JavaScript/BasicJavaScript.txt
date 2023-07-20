@@ -1,10 +1,20 @@
-1. Java Script can be written anyhere in html with tag 
-  <script>
-    documents here. 
-  </script>
-2. Alert function for alert when page is loaging. 
-    alert(document here);
-3. To write in document page
-    document.write("Helo Java Script <br/>");
-4. To write in console
-    console.log(document  here);
+# Java Script can be written anyhere in html with tag, this is call internal javascript. 
+    <script>
+      documents here. 
+    </script>
+  * But we always use external java script which will save as index.js and linked up with html file.
+    <script src="index.js"></script>
+# Java Script functions 
+    * alert(document here);    // for alert when page is loaging
+    * document.write("Helo Java Script <br/>");    // To write in document page
+    * console.log(document  here);    // To write in console. 
+    * typeof(variable);    // To show variable type. 
+# Data type in java script.
+    * string
+    * boolen
+    *number 
+    * and special type object. 
+# Variable declaration. Variable name can be latters, numbers, underscore and dolar sign. 
+    * var num=123;    // for any type.
+    * const name = "Naeem";    // for fixed value.
+    * let name = "Imran";    // for any type. 
