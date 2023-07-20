@@ -1,7 +1,7 @@
 1. Java Script can be written anyhere in html with tag 
-<script>
-  documents here. 
-</script>
+  <script>
+    documents here. 
+  </script>
 2. Alert function for alert when page is loaging. 
     alert(document here);
 3. To write in document page
