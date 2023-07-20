@@ -1,0 +1,6 @@
+1. Java Script can be written anyhere in html with tag 
+<script>
+  documents here. 
+</script>
+2. Alert function for alert when page is loaging. 
+    alert(documents);
