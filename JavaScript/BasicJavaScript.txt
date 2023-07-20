@@ -3,4 +3,6 @@
   documents here. 
 </script>
 2. Alert function for alert when page is loaging. 
-    alert(documents);
+    alert(document here);
+3. To write in document page
+    document.write(document here);
