@@ -14,6 +14,13 @@
     * Number("124.55");    // for convert to number. 
     * num.toFixed(2);    // for output two digits after decimal point. 
     * num.toPrecision(3);    // for output total 3 digit. 
+
+    * name.length;     // for string length. notice there is no paranthesis. 
+    * name = prompt("Enter your name: ");    // for input from user with massage. 
+    * name.charAt(2);    // for access third digit of name.
+    * toUpperCase(name);    // for convert name to uppercase. 
+    * name.concat(lastName);    // for concatenate name and lastName string. 
+    * sub = name.slice(2, 5);    // for substring from 3rd index up to 6th index. 
 # Data type in java script.
     * string
     * boolen
