@@ -30,3 +30,4 @@
     * var num=123;    // for any type.
     * const name = "Naeem";    // for fixed value.
     * let name = "Imran";    // for any type. 
+# Operator and Control statement almost same as c/c++. 
