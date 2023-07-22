@@ -10,17 +10,29 @@
     * console.log(document  here);    // To write in console. 
     * typeof(variable);    // To show variable type. 
     * toString(num);    // for convert number to string. 
-    * parseInt(name);    // for convert string to number. 
+    * parseInt(names);    // for convert string to number. 
     * Number("124.55");    // for convert to number. 
     * num.toFixed(2);    // for output two digits after decimal point. 
     * num.toPrecision(3);    // for output total 3 digit. 
 
-    * name.length;     // for string length. notice there is no paranthesis. 
-    * name = prompt("Enter your name: ");    // for input from user with massage. 
-    * name.charAt(2);    // for access third digit of name.
-    * toUpperCase(name);    // for convert name to uppercase. 
-    * name.concat(lastName);    // for concatenate name and lastName string. 
-    * sub = name.slice(2, 5);    // for substring from 3rd index up to 6th index. 
+    * names.length;     // for string length. notice there is no paranthesis. 
+    * names = prompt("Enter your name: ");    // for input from user with massage. 
+    * names.charAt(2);    // for access third digit of name.
+    * toUpperCase(names);    // for convert name to uppercase. 
+    * names.concat(lastName);    // for concatenate name and lastName string. 
+    * sub = names.slice(2, 5);    // for substring from 3rd index up to 6th index. main array remain unchange. 
+
+    * arr.push(102);    // for insert element into array to last. 
+    * arr.unshift(123);    // for insert element into array to beginning. 
+    * arr.pop();     // for delete last element. 
+    * arr.shift();    // delete first element from array. 
+    * names.splice(2, 1, "Naeem", "Imran");      // first parameter for starting location, second paramenter for number of element delete from last and rest of parameter for add element from index 2; 
+    * names.sort();     // for string sorting.
+    * names.reverse();     // for string reverse.
+    * numbers.sort(function(a,b)        // for numbers sorting. if a-b > 0 then swap the positions. 
+        {
+            return a-b;
+        }
 # Data type in java script.
     * string
     * boolen
@@ -28,10 +40,11 @@
     * and special type object. 
 # Variable declaration. Variable name can be latters, numbers, underscore and dolar sign. 
     * var num=123;    // for any type.
-    * const name = "Naeem";    // for fixed value.
-    * let name = "Imran";    // for any type. 
-    * let name = new Array(100);    // array declaration for size 100;
-    * var name = [];    // array declaration. 
+    * const names = "Naeem";    // for fixed value.
+    * let names = "Imran";    // for any type. 
+    * let arr = new Array(100);    // array declaration for size 100;
+    * var arr = [];    // array declaration. 
+    * documents.write(arr);    // to output all the names. 
 # Operators and Control statement almost same as c/c++. == operator don't check variable type but === check variable type like c/c++.
 # Declare a function: function function_name()
     * function square(num)        // creating a function name square with paramenter num. 
