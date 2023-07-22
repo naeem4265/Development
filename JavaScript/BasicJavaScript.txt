@@ -38,3 +38,13 @@
             return result;
         }
     * document.write(square(5));    // square function called. 
+    * (function sum(num1, num2)    //this is IIFE(Immediately Invokeable Function Expression). 
+        {
+            document.write("sum = " + num1+num2);
+        }
+      )(10,15);             // this is auto function call. 
+    * var display = function toDisplay(name)
+        {
+            console.log(name);
+        }
+     display("Naeem");      // this is called function expression. 
