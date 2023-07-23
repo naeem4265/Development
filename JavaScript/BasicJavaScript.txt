@@ -34,6 +34,8 @@ JavaScript resource:  https://youtu.be/xpP5L1NuMQU
         {
             return a-b;
         }
+
+    * Math.random()*6;         //for generating random number between 0 to 5. here Math is object. and random is function for                                 // generating 0 to less than 1. 
 # Data type in java script.
     * string
     * boolen
