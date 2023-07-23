@@ -1,3 +1,4 @@
+JavaScript resource:  https://youtu.be/xpP5L1NuMQU
 # Java Script can be written anywhere in html with tag, this is call internal javascript. 
     <script>
       documents here. 
@@ -63,3 +64,26 @@
             console.log(name);
         }
      display("Naeem");      // this is called function expression. 
+# Object Create & Print
+    * var student = {
+        name: "Naeem", 
+        age : 26, 
+        cgpa : 3.27, 
+        skill: ["c", "c++", "javascript"]
+    }
+    console.log(student.cgpa);
+    * function Object(name, age, cgpa, skill)
+        {   
+            this.name = name; this.age = age; this.cgpa = cgpa; this.skill = skill;
+            this.display = function()           // function in a constractor. 
+            {
+                document.write(this.name);   document.write(this.skill); 
+            }
+        }
+     var Student = new Object("Naeem", 26, cgpa, skill);        // new object declaration
+     Student.display();             // output Student object. 
+
+
+
+
+
