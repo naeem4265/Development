@@ -84,7 +84,10 @@ JavaScript resource:  https://youtu.be/xpP5L1NuMQU
         }
      var Student = new Object("Naeem", 26, cgpa, skill);        // new object declaration
      Student.display();             // output Student object. 
-
+# Document object Model. 
+    * document.getElementById("id1").innerHTML = "This is new text";
+    * var temp = document.getElementsByTagName(123);       temp[2].innerHTML= "New";
+    
 
 
 
