@@ -87,7 +87,10 @@ JavaScript resource:  https://youtu.be/xpP5L1NuMQU
 # Document object Model. 
     * document.getElementById("id1").innerHTML = "This is new text";
     * var temp = document.getElementsByTagName(123);       temp[2].innerHTML= "New";
-    
+    * var temp = document.getElementsByClass(123);       temp[2].innerHTML= "New";
+
+    * document.querySelector("#id or tagname or .classname).innerHTML = "Changed";
+    * document.querySelector("tag name")[index].innerHTML = "NEW";
 
 
 
