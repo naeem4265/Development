@@ -91,7 +91,18 @@ JavaScript resource:  https://youtu.be/xpP5L1NuMQU
 
     * document.querySelector("#id or tagname or .classname).innerHTML = "Changed";
     * document.querySelector("tag name")[index].innerHTML = "NEW";
-
+    ** HTML
+    <img id="id1" src="images/off.png" height="300" width="250"><br/></img>
+    <button onclick="Message('Light off',0)">Off</button>
+    <button onclick="Message('Light on', 1)">On</button>
+    ** JavaScript
+    function Message(on){
+        let temp = document.querySelector("#id1");
+        if(on)
+            temp.src = "images/on.png";
+        else
+            temp.src = "images/off.png";
+    }
 
 
 
